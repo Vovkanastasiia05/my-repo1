@@ -1,0 +1,84 @@
+!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Персональна сторінка Вовк Анастасія Романівна</title>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            font-style: italic;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 5px;
+        }
+
+        a.biography {
+            color: red;
+        }
+
+        a.nowadays {
+            color: purple;
+        }
+
+        a.friends {
+            color: blue;
+        }
+
+        a.gallery {
+            color: orange;
+        }
+        @media (min-width: 992px) {
+            /* Desktop - один рядок */
+            p {
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            /* Tablet - два рядки */
+            p {
+                display: block;
+                width: 50%;
+                box-sizing: border-box;
+                float: left;
+            }
+        }
+
+        @media (max-width: 767px) {
+            /* Mobile - один стовпець */
+            p {
+                width: 100%;
+                clear: both;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Персональна сторінка Вовк Анастасія Романівна</h1>
+    <p><a class="biography" href="biography.html">Автобіографія</a></p>
+    <p><a class="nowadays" href="nowadays.html">Сьогодення</a></p>
+    <p><a class="friends" href="friends.html">Друзі</a></p>
+    <p><a class="gallery" href="gallery.html">Галерея</a></p>
+</body>
+</html>
