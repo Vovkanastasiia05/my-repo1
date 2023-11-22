@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Друзі Вовк Анастасія Романівна</title>
+       <style>
+       h1 {
+        text-align: center;
+        font-size: 22px;
+        }
+         a {
+        font-style: italic;
+        text-decoration: underline;
+        }
+       
+        h2 {
+        text-align: center;
+        }
+        table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    table, th, td {
+           border: 1px solid black;
+          }
+       
+    th, td {
+        padding: 12px;
+        text-align: center ;
+        
+    }
+    
+    tr:nth-child(odd) {
+        background-color: green;
+        font-weight: bold;
+    }
+    th:nth-child(5){
+        text-align: right;
+    }
+    /* Desktop */
+@media screen and (min-width: 1024px) {
+    table th {
+        font-size: 130%;
+    }
+    table td {
+        font-size: 120%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    table th {
+        font-size: 120%;
+    }
+    table td {
+        font-size: 110%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    table th {
+        font-size: 110%;
+    }
+}
+        </style>
+</head>
+<body>
+    <h1>Друзі Вовк Анастасія Романівна</h1>
+    <a href="index.html">Назад на головну</a>
+    <h2>Мої друзі</h2>
+    <table>
+        <caption>Інформація про моїх друзів</caption>
+            <tr>
+                <th>Прізвище</th>
+                <th>Ім'я</th>
+                <th>Дата народження</th>
+                 <th>Адреса проживання</th>
+                <th>Контактний телефон</th>
+            </tr>
+
+            <tr class="inf-odd">
+                <th>Осташ</th>
+                <th>Андріана</th>
+                <th>21.10.2005</th>
+                <th>вул. Сущинського</th>
+                <th>+380678334891</th>
+            </tr>
+
+            <tr>
+                <th>Овчар</th>
+                <th>Софія</th>
+                <th>11.04.2005</th>
+                <th>вул. Франка</th>
+                <th>+380991302669</th>
+            </tr>
+        
+
+        
+            <tr class="inf-odd">
+                <th>Галендей</th>
+                <th>Леся</th>
+                <th>20.04.1985</th>
+                <th>вул.Франка</th>
+                <th>+380663602778</th>
+            </tr>
+            <tr>
+                <th>Павлюк</th>
+                <th>Арсен</th>
+                <th>23.01.2006</th>
+                <th>вул.Олекси Довбуша</th>
+                <th>+380969585013</th>
+            </tr>
+    </table>
+</body>
+</html>
