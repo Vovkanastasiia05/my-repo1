@@ -28,12 +28,20 @@
         }
         .image-container {
             text-align: center;
+            display: inline-block;
+            margin: 10px;
         }
         img {
             max-width: 100%;
             height: auto;
             display: block;
             margin: auto;
+        }
+        @media (max-width:768px){
+            .image-container{
+                display: block;
+                margin: 10px;
+            }
         }
     </style>
 </head>
