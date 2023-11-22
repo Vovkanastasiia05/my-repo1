@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Автобіографія Вовк Анастасія Романівна</title>
+    <style>
+        body{
+      font-family: Arial, sans-serif;
+    }
+    h1{
+      color:#333;
+      text-align:center;
+      font-size:22px;
+    }
+    h2{
+      font-size:120%;
+    }
+    p{
+      font-size: 120%;
+    }
+      a {
+      text-decoration: underline;
+      color: #0077FF;
+      transition: color 0.3s;
+      font-style: italic;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #FF00FF;      
+    }
+    a:active {
+      color: #FFFF00;
+    }
+    h3 {
+      background: #0077FF;
+      color: #FFF;
+      padding: 5px;
+      text-align: center;
+    }
+      h4 {
+      text-transform: uppercase;
+      }
+    article {
+      margin: 20px 0;
+      padding: 10px;
+    }
+    hr {
+      background-color: #000;
+      height: 2px;
+      border: none ;
+    }
+      .cont-button{
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        background-color: blue;
+        border: 3px solid black ;
+        margin: 2px;
+        
+      }
+ 
+      .cont-button:hover {
+        color: black;
+        background-color: purple;
+      }
+
+      .cont-button:active {
+        color: grey;
+        background-color: yellow;
+      }
+
+      .txt1 {background-color: red;       
+      }       
+      .txt2 {background-color: orange;       
+      }       
+      .txt3 {background-color: yellow;       
+      }       
+      .txt4{background-color: green;
+      }       
+      .txt5{background-color: blue;
+      }
+        .section {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Блоки на різних екранах */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flex-item {
+            flex: calc(50% - 20px); 
+            margin-right: 20px;
+        }
+
+        /* tablet і mobile */
+        @media screen and (max-width: 768px) {
+            .flex-item {
+                flex: calc(100% - 20px); 
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Автобіографія Вовк Анастасія Романівна</h1>
+    <a href="index.html">Назад на головну</a>
+
+    <h3 id="content">Зміст</h3>
+    <ul>
+        <li><a class="cont-button" href="#section1">Базова інформація</a></li>
+        <li><a class="cont-button" href="#section2">Дитинство</a></li>
+        <li><a class="cont-button" href="#section3">Шкільні роки</a></li>
+        <li><a class="cont-button" href="#section4">Поза школою</a></li>
+        <li><a class="cont-button" href="#section4">Університет</a></li>
+    </ul>
+    <div class="flex-container">
+        <div class="flex-item">
+            <div class="section" id="section1">
+                <h3 class="section-title">Базова інформація</h3>
+                <p class="txt1">Я Анастасія, мені 18 років. Живу в смт. Єзупіль, проте навчаюся в Івано-Франківську. Обожнюю прогулянки вечірнім містом, адже вважаю, що Івано-Франківськ - це найбільш мальовниче місто в Україні.</p>
+                <a href="#content">До змісту</a>
+            </div>
+        </div>
+        <div class="flex-item">
+            <div class="section" id="section2">
+                <h3 class="section-title">Дитинство</h3>
+                <p class="txt2">Дитинство - це час, коли я здобувала перші враження, формувала свої інтереси та створювала спогади, які назавжди залишаються частиною мене. Я проводила безліч годин граючи з друзями, вчилась новим речам з цікавістю та радістю. Моє дитинство було сповнене цікавими пригодами та незабутніми моментами.</p>
+                <a href="#content">До змісту</a>
+            </div>
+        </div>
+        <div class="flex-item">
+            <div class="section" id="section3">
+                <h3 class="section-title">Шкільні роки</h3>
+                <p class="txt3">Під час мого шкільного періоду я стала активною ученицею. Я здобувала знання, розвивала навички та встановлювала дружні стосунки з однокласниками. Шкільні роки, безсумнівно, залишили слід у моєму розвитку і пам'яті, допомагаючи мені стати тим, ким є сьогодні.</p>
+                <a href="#content">До змісту</a>
+            </div>
+        </div>
+        <div class="flex-item">
+            <div class="section" id="section4">
+                <h3 class="section-title">Поза школою</h3>
+                <p class="txt4">Мої заняття поза школою свідчать про мою різнобічну активність та інтереси. Відвідування художньої школи вказує на мою творчу нахилєність та здатність до мистецтва. А гра в настільний теніс вказує на спортивну активність і бажання підтримувати фізичну форму. Ці заняття допомогли розвивати навички та залишити слід у моїм інтересах.</p>
+                <a href="#content">До змісту</a>
+            </div>
+        </div>
+      <div class="flex-item">
+            <div class="section" id="section5">
+                <h3 class="section-title">Університет</h3>
+                <p class="txt5">Університетське життя для мене стало періодом неабиякої активності та розвитку: нові предмети, викликання і можливості.Університет - це час виснажливих дедлайнів, але й можливість довести собі, що мета варта зусиль, та збагатити свій світогляд і власний досвід.</p>
+                <a href="#content">До змісту</a>
+            </div>
+      </div>
+    </div>
+    </div>
+
+    <a href="#title">Уверх</a>
+  
+  </body>
+</html>
