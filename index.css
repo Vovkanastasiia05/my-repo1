@@ -1,0 +1,71 @@
+<style>
+        body {
+          font-family: Arial, sans-serif;
+          color: #333;
+          margin: 0;
+          padding: 0;
+        }
+    
+         /* Стилі для заголовків */
+    h1, h2, h3 {
+      font-family: 'Font 1', sans-serif; /* Шрифт */
+      color: black;
+      text-align: left; /* Вирівнювfyyz */
+      padding: 10px; /* Відступи */
+     
+    }
+     
+     .block {
+          margin-bottom: 20px;
+          padding: 20px;
+          position: relative;
+        }
+        h2{
+      font-size:120%;
+    }
+        
+    
+    .block-1 {
+      background-color: #ff5733;
+    }
+
+    .block-2 {
+      background-color: #c70039;
+    }
+
+    .block-3 {
+      background-color: #900c3f;
+    }
+
+    .block-4 {
+      background-color: #581845;
+    }
+
+    /* Стилі для різних розмірів екрану */
+    @media (max-width: 768px) {
+      .block {
+        width: 100%; 
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 992px) {
+      .block {
+        width: 50%; 
+        float: left; 
+      }
+    }
+
+    @media (min-width: 993px) and (max-width: 1200px) {
+      .block-4 {
+        width: 50%; 
+        float: left; 
+      }
+    }
+
+    @media (min-width: 1201px) {
+      .block {
+        width: 25%; 
+        float: left; 
+      }
+    }
+      </style>
