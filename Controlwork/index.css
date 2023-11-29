@@ -42,24 +42,181 @@
     }
 
     /* Стилі для різних розмірів екрану */
+    @media (min-windth: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+     float: left;
+     border: 2px solid black;
+     }
+     .col-lg-1 {
+     width: calc(.33%);
+     }
+     .col-lg-2 {
+     width: calc(16.66%);
+     }
+     .col-lg-3 {
+     width: calc(25%);
+     }
+     .col-lg-4 {
+     width: calc(33.33%);
+     }
+     .col-lg-5 {
+     width: calc(41.66%);
+     }
+     .col-lg-6 {
+     width: calc(50%);
+     }
+     .col-lg-7 {
+     width: calc(58.33%);
+     }
+     .col-lg-8 {
+     width: calc(66.66%);
+     }
+     .col-lg-9 {
+     width: calc(75%);
+     }
+     .col-lg-10 {
+     width: calc(83.33);
+     }
+     .col-lg-11 {
+     width: calc(91.66%);
+     }
+     .col-lg-12 {
+     width: calc(100%);
+     }
+    }
+
+@media (min-width: 992px) and (max-windth: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+    .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+     float: left;
+     border: 2px solid black;
+     }
+     .col-lg-1 {
+     width: calc(.33%);
+     }
+     .col-lg-2 {
+     width: calc(16.66%);
+     }
+     .col-lg-3 {
+     width: calc(25%);
+     }
+     .col-lg-4 {
+     width: calc(33.33%);
+     }
+     .col-lg-5 {
+     width: calc(41.66%);
+     }
+     .col-lg-6 {
+     width: calc(50%);
+     }
+     .col-lg-7 {
+     width: calc(58.33%);
+     }
+     .col-lg-8 {
+     width: calc(66.66%);
+     }
+     .col-lg-9 {
+     width: calc(75%);
+     }
+     .col-lg-10 {
+     width: calc(83.33);
+     }
+     .col-lg-11 {
+     width: calc(91.66%);
+     }
+     .col-lg-12 {
+     width: calc(100%);
+     }
+    }
+    
+    @media (min-width: 769px) and (max-width: 993px) {
+     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+    .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+        border: 2px solid black;
+        }
+        .col-lg-1 {
+        width: calc(.33%);
+        }
+        .col-lg-2 {
+        width: calc(16.66%);
+        }
+        .col-lg-3 {
+        width: calc(25%);
+        }
+        .col-lg-4 {
+        width: calc(33.33%);
+        }
+        .col-lg-5 {
+        width: calc(41.66%);
+        }
+        .col-lg-6 {
+        width: calc(50%);
+        }
+        .col-lg-7 {
+        width: calc(58.33%);
+        }
+        .col-lg-8 {
+        width: calc(66.66%);
+        }
+        .col-lg-9 {
+        width: calc(75%);
+        }
+        .col-lg-10 {
+        width: calc(83.33);
+        }
+        .col-lg-11 {
+        width: calc(91.66%);
+        }
+        .col-lg-12 {
+        width: calc(100%);
+        }
+       }
+    
     @media (max-width: 768px) {
-      .block {
-        width: 100%; 
-      }
-    }
-
-    @media (min-width: 769px) and (max-width: 992px) {
-      .block {
-        width: 50%; 
-        float: left; 
-      }
-    }
-
-    @media (min-width: 993px) and (max-width: 1200px) {
-      .block-4 {
-        width: 50%; 
-        float: left; 
-      }
+     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+    .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+        border: 2px solid black;
+        }
+        .col-lg-1 {
+        width: calc(.33%);
+        }
+        .col-lg-2 {
+        width: calc(16.66%);
+        }
+        .col-lg-3 {
+        width: calc(25%);
+        }
+        .col-lg-4 {
+        width: calc(33.33%);
+        }
+        .col-lg-5 {
+        width: calc(41.66%);
+        }
+        .col-lg-6 {
+        width: calc(50%);
+        }
+        .col-lg-7 {
+        width: calc(58.33%);
+        }
+        .col-lg-8 {
+        width: calc(66.66%);
+        }
+        .col-lg-9 {
+        width: calc(75%);
+        }
+        .col-lg-10 {
+        width: calc(83.33);
+        }
+        .col-lg-11 {
+        width: calc(91.66%);
+        }
+        .col-lg-12 {
+        width: calc(100%);
+        }
+       
     }
 
     @media (min-width: 1201px) {
